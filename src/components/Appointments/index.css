@@ -96,3 +96,14 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
+@media screen and (max-width: 576px) {
+  .right {
+    display: none;
+  }
+  .left {
+    width: 90%;
+  }
+  .input {
+    width: 100%;
+  }
+}
