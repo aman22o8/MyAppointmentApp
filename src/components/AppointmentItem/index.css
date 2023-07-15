@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.each_appointment_container {
+  /* flex-wrap: wrap; */
+  margin: 20px;
+  border-radius: 15px;
+  height: 85px;
+  width: 180px;
+  border: 1px solid #b5b7c4;
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.list_header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.each_app_heading {
+  font-size: 15px;
+  font-weight: 800;
+  color: #171f46;
+}
+.stared_btn {
+  background-color: transparent;
+  border: 0px solid;
+  width: 17px;
+}
+.stared_icon {
+  height: 17px;
+  width: 17px;
+}
+.date_desc {
+  font-size: 12px;
+  font-weight: 500;
+  color: #b5b7c4;
+}

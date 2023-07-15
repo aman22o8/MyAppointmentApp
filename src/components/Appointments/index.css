@@ -1,0 +1,98 @@
+/* Write your CSS here */
+
+.bg_container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.initial_container {
+  background-color: #ffffff;
+  width: 65%;
+  border-radius: 15px;
+  padding: 15px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.right {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.main_heading {
+  font-size: 35px;
+  font-weight: 700;
+  color: #171f46;
+}
+.form_container {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #b5b7c4;
+}
+.input {
+  width: 80%;
+  height: 30px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 1px solid #b5b7c4;
+}
+.add_button {
+  background-color: #8b5cf6;
+  width: 60px;
+  height: 25px;
+  border: 0px solid;
+  border-radius: 5px;
+  color: #ffffff;
+  margin: 10px 0px;
+}
+
+.image1 {
+  max-height: 65%;
+  max-width: 70%;
+}
+.footer_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+.heading_2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #171f46;
+}
+.stared_button {
+  background-color: #ffffff;
+  width: 70px;
+  height: 28px;
+  border: 1px solid #b5b7c4;
+  border-radius: 14px;
+  color: #8b5cf6;
+  font-size: 12px;
+  text-align: center;
+  padding: 5px 0px;
+}
+.footer_footer {
+  margin-left: 0px;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
